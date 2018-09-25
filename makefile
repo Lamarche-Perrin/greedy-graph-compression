@@ -1,7 +1,8 @@
 CXX := g++
 SRCDIR := src
+BINDIR :=  bin
 BUILDDIR := build
-TARGET := bin/greedy-graph-compressor
+TARGET := $(BINDIR)/greedy-graph-compressor
 SRCEXT := cpp
 SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
 OBJECTS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
@@ -11,6 +12,7 @@ INC := -I include
 all: $(TARGET)
 
 $(TARGET): $(OBJECTS)
+	@mkdir -p $(BINDIR)
 	@echo " Linking..."
 	@echo " $(CXX) $^ -o $(TARGET)"; $(CXX) $^ -o $(TARGET)
 
@@ -20,7 +22,7 @@ $(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
 
 clean:
 	@echo " Cleaning..."; 
-	@echo " $(RM) -r $(BUILDDIR) $(TARGET)"; $(RM) -r $(BUILDDIR) $(TARGET)
+	@echo " $(RM) -r $(BINDIR) $(BUILDDIR) $(TARGET)"; $(RM) -r $(BINDIR) $(BUILDDIR) $(TARGET)
 
 run: $(TARGET)
 	./$(TARGET)
