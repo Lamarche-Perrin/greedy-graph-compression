@@ -1,0 +1,27 @@
+GagV05 Optimization
+Experiment : Benchmark graph type sparse scale : 1
+Algorithm : mix program
+
+Problem metadata :
+Dimensions : 2
+N : 8 8 
+E : 22
+Density : 0.34375
+Ew : 49
+
+Algorithm metadata : 
+lambda : 100
+warning : the following meta value are not fully set automatically in V04
+please check the main function to know what where the values used
+Initial partition : micro 
+Shuffling         : none
+Operator set      : all
+Probability laws  : binomial, p = 0.5
+RL                : off
+
+
+Time spent in optim : 0.107334 seconds.
+
+
+Printed Values : 
+cost ldkl penalty Rsize d_cost d_ldkl d_penalty d_Rsize found accepted tfind tdelta tdone 

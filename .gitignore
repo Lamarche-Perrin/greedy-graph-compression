@@ -5,11 +5,8 @@ add_header
 # Temporary files
 *~
 
-# Input files
-input/*
-
-# Output files
-output/*
+# Intput files
+input/datas_100_100_100.json
 
 # Building and binary files
 build/*
