@@ -1,0 +1,17 @@
+# Header building files
+header
+add_header
+
+# Temporary files
+*~
+
+# Input files
+input/*
+
+# Output files
+output/*
+
+# Building and binary files
+build/*
+bin/*
+
