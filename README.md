@@ -13,8 +13,8 @@ You need to have **git**, **gcc** and **make** installed and working on your mac
 
 Then, run:
 ```
-git clone https://github.com/Lamarche-Perrin/greedy_graph_compression.git
-cd greedy_graph_compression
+git clone https://github.com/Lamarche-Perrin/greedy-graph-compression.git
+cd greedy-graph-compression
 make
 ```
 
