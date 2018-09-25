@@ -2,7 +2,7 @@
 
 This program is a C++ implementation of a greedy algorithm solving the graph compression problem (GCP). Several snippets are provided in order to introduce the different classes of the project.
 
-For details regarding the GCP, see <https://arxiv.org/abs/1807.06874>.  
+For details regarding the GCP, see <https://arxiv.org/abs/1807.06874>:  
 Robin Lamarche-Perrin. An Information-theoretic Framework
 for the Lossy Compression of Link Streams. arXiv:1807.06874
 
@@ -13,20 +13,20 @@ You need to have **git**, **gcc** and **make** installed and working on your mac
 
 Then, run:
 ```
-git clone https://github.com/Lamarche-Perrin/greedy_graph_compression.git
-cd greedy_graph_compression
+git clone https://github.com/Lamarche-Perrin/greedy-graph-compression.git
+cd greedy-graph-compression
 make
 ```
 
 ## Project Directories
 
 * Sources: `src`
-* Binaries: `bin`
-* Build: `build`
 * Headers: `include`
+* Tutorials: `tutorials`
+* Binaries: `bin`
+* Building files: `build`
 * Input data: `input`
 * Output data: `output`
-* Tutorials: `tutorials`
 
 ## Tutorials
 There are six files in the `tutorials` directory that contain different `main()` functions introducing the six core classes of the program. Only one of these six files can be in the `src` directory when compiling the project. We present these classes in order of inheritance.
