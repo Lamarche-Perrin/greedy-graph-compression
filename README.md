@@ -7,15 +7,16 @@ Robin Lamarche-Perrin. An Information-theoretic Framework
 for the Lossy Compression of Link Streams. arXiv:1807.06874
 
 
-## Clone and Compile
+## Clone, Compile, and Run
 
 You need to have **git**, **gcc** and **make** installed and working on your machine.
 
-Then, run:
+Then, on the command line:
 ```
 git clone https://github.com/Lamarche-Perrin/greedy-graph-compression.git
 cd greedy-graph-compression
 make
+bin/greedy-graph-compression
 ```
 
 ## Project Directories
