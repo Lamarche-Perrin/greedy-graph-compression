@@ -1,6 +1,6 @@
 # Greedy Graph Compression
 
-This program is a C++ implementation of a greedy algorithm solving the graph compression problem (GCP). Several snippets are provided in order to introduce the different classes of the project.
+This program is a C++ implementation of a greedy algorithm to solve the graph compression problem (GCP). Several snippets are provided in order to introduce the different classes of the project.
 
 For details regarding the GCP, see <https://arxiv.org/abs/1807.06874>:  
 Robin Lamarche-Perrin. An Information-theoretic Framework
